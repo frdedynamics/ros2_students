@@ -151,7 +151,6 @@
     <joint_properties damping="1.0" friction="1.0"/>
   </joint>
 
-
   <joint name="camera_joint" type="fixed">
     <origin xyz="0.073 -0.011 0.084" rpy="0 0 0"/>
     <parent link="base_link"/>
