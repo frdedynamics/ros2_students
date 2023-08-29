@@ -11,9 +11,9 @@ import xacro
 
 
 def generate_launch_description():
-    # Get the path to the Gazebo world file
-    package_name = 'simple_navigation'
-    world_file_path = os.path.join(get_package_share_directory(package_name), 'worlds', 'simple_navigation.world')
+    # Get the path to the Gazebo world file and the robot description
+    package_name = 'braitenberg_vehicle'
+    world_file_path = os.path.join(get_package_share_directory(package_name), 'worlds', 'braitenberg_vehicle.world')
     xacro_file_path = os.path.join(get_package_share_directory(package_name), 'urdf', 'turtlebot3_waffle_pi.urdf.xacro')
 
     tb3_pos = ['2.0', '0.0', '0.0']
