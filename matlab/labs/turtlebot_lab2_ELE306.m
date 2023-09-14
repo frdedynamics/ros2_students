@@ -41,7 +41,7 @@ robot.qlim = [-3.14, +3.14; -1.57, +1.57; -1.40, +1.57; -1.57, 1.57];
 robot.plot([0, 0, 0, 0]);
 
 %% Control the gripper and make sure it's open
-% Create a publisher for /simple_gripper_cmd with action type std_msgs/Float64
+% Create a publisher for /simple_gripper_cmd with topic type std_msgs/Float64
 
 
 % Make sure the gripper is open  /simple_gripper_cmd => 0.0
