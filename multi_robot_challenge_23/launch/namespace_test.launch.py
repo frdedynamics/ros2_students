@@ -17,5 +17,4 @@ def generate_launch_description():
             package='multi_robot_challenge_23',
             executable='leader',
             name='leader'),
-        ),
-  ])
+    ])
