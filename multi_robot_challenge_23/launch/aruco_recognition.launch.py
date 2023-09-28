@@ -22,7 +22,15 @@ def generate_launch_description():
                     {"camera_info_topic": "camera/camera_info"}]
     )
 
+    marker_trans = Node(
+            package='multi_robot_challenge_23',
+            executable='marker_recognition',
+            name='marker_recognition',
+            parameters=[{"namespace": namespace}],
+    )
+
     return LaunchDescription([
         namespace_launch_arg,
         aruco_node,
+        marker_trans,
     ])
