@@ -32,7 +32,7 @@ beta = atan(L3/L2);
 %j1 = Revolute('d', ?, 'a', ?, 'alpha', pi/2, 'offset', pi);
 %j2 = Revolute('d', ?, 'a', ?, 'alpha', 0, 'offset', beta + pi/2);
 %j3 = Revolute('d', ?, 'a', ?, 'alpha', 0, 'offset', -beta + pi/2);
-%j4 = Revolute('d', ?, 'a', ?, 'alpha', 0, 'offset', pi/90);
+%j4 = Revolute('d', ?, 'a', ?, 'alpha', 0, 'offset', 0);
 
 robot = SerialLink([j1 j2 j3 j4],'name', 'my robot');
 robot.qlim = [-3.14, +3.14; -1.57, +1.57; -1.40, +1.57; -1.57, 1.57];
