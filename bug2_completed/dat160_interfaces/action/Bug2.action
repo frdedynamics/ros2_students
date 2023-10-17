@@ -1,0 +1,8 @@
+#goal definition
+geometry_msgs/Point target_position
+---
+#result definition
+geometry_msgs/Point base_position
+---
+#feedback definition
+geometry_msgs/Point current_position
