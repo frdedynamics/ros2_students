@@ -2,7 +2,6 @@
 
 <robot name="mobile_manipulator_robot" xmlns:xacro="http://ros.org/wiki/xacro">
     <xacro:include filename="$(find custom_robot_sim)/urdf/common_macros.xacro" />
-    <xacro:include filename="$(find custom_robot_sim)/urdf/robot_plugins.gazebo.xacro" />
 
     <!-- <gazebo>
         <static>true</static>
